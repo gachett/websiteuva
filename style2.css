@@ -1,0 +1,187 @@
+body {
+    color: white;
+    background-color: rgb(22, 22, 22);
+    font-family: 'Poppins', sans-serif
+}
+
+ul {
+    justify-content: space-between; 
+    list-style-type: none;
+    align-items: center;
+    padding: 17px;
+    float: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    padding: 0px 263px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+img {
+    width: 400px;
+}
+
+a {
+    color: white;
+    font-weight: 500;
+}
+
+a:hover {
+    color: rgb(132, 14
+    , 201);
+    transition: 0.3s all;
+}
+
+#btn {
+    border: 2px solid rgb(66, 62, 68);
+    padding: 10px;
+    border-radius: 18px;
+}
+
+#btn:hover {
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+.form_box {
+    text-align: center;
+}
+
+.form_box button:hover {
+    background-color: rgb(132, 14, 201);
+}
+
+.curriculo {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.hum {
+    text-align: center
+}
+
+.paragrafo {
+    text-align: center;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.foto {
+    float: left;
+    width: 350px;
+    margin-right: 100px;
+    margin-left: 90px;
+}
+
+.imagenscontato .linkedinimg{
+    width: 22%;
+    padding: 0 0 55px 60px;
+}
+
+.imagenscontato {
+    text-align: center;
+}
+
+.curiosidades {
+    text-align: center;
+    padding: 0 200px 0 0;
+}
+
+.curiosidades2 {
+    text-align: center;
+}
+
+.imgnovidades {
+    float: left;
+    margin-left: 230px;
+}
+    
+@media screen and (max-width: 600px) {
+    /* CLASSES GERAIS*/
+
+    .main{
+        flex-direction: column;
+    }
+
+    /* CABEÇALHO */
+
+    /* TOPO DO SITE */
+
+    .foto{
+        float: left;
+        width: 300px;
+    }
+
+    .htres{
+        padding: 50px 0 0 0;
+    }
+    .paragrafo{
+        float: left;
+        text-align: justify;
+        font-size: 0.9em;
+        padding: 20px 0 0 0;
+    }
+
+    .curriculo {
+        float: left;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .curiosidades {
+        float: left;
+        padding: 0 0 0 0;
+    }
+    
+    .imagenscontato .linkedinimg{
+        width: 90%;
+        padding: 0 0 0 80px;
+    }
+
+    /* MENU MOBILE */
+
+    a {
+        color: white;
+        font-weight: 500;
+        word-wrap: break-word;
+    }
+    
+    a:hover {
+        color: rgb(132, 14
+        , 201);
+        transition: 0.3s all;
+        word-wrap: break-word;
+    }
+    
+    #btn {
+    padding: 10px;
+    border-radius: 0px;
+    word-wrap: break-word;
+    }
+    
+    #btn:hover {
+        background-color: rgb(132, 14, 201);
+        color: white;
+        word-wrap: break-word;
+    }
+}
